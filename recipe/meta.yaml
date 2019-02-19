@@ -1,4 +1,4 @@
-{% set version = '1.0-6' %}
+{% set version = "1.0-7" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -12,11 +12,11 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/mlmRev_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/mlmRev/mlmRev_{{ version }}.tar.gz
-  sha256: 0796b6be29f162f6fa1bc41ca0a153649315a5a69cc846794787dcb52c547557
+  sha256: 7e668108f0a504ca9ecf84402346439c3377866eef1948704ade50fac4f4473e
 
 build:
   noarch: generic
-  number: 1000
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
