@@ -1,7 +1,3 @@
-<!--
-# -*- mode: jinja -*-
--->
-
 About r-mlmrev
 ==============
 
@@ -20,8 +16,15 @@ data sets from the multilevel modelling literature.
 Current build status
 ====================
 
-All platforms:
-[![noarch](https://img.shields.io/circleci/project/github/conda-forge/r-mlmrev-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/r-mlmrev-feedstock)
+
+<table><tr><td>All platforms:</td>
+    <td>
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4246&branchName=master">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-mlmrev-feedstock?branchName=master">
+      </a>
+    </td>
+  </tr>
+</table>
 
 Current release info
 ====================
@@ -116,5 +119,6 @@ Feedstock Maintainers
 =====================
 
 * [@bgruening](https://github.com/bgruening/)
+* [@conda-forge/r](https://github.com/conda-forge/r/)
 * [@johanneskoester](https://github.com/johanneskoester/)
 
