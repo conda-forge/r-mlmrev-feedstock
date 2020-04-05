@@ -3,13 +3,11 @@ About r-mlmrev
 
 Home: https://CRAN.R-project.org/package=mlmRev
 
-Package license: GPL (>= 2)
+Package license: GPL-2
 
 Feedstock license: BSD 3-Clause
 
-Summary: Data and examples from a multilevel modelling software review as well as other well-known
-data sets from the multilevel modelling literature.
-
+Summary: Data and examples from a multilevel modelling software review as well as other well-known data sets from the multilevel modelling literature.
 
 
 
@@ -118,7 +116,5 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@bgruening](https://github.com/bgruening/)
 * [@conda-forge/r](https://github.com/conda-forge/r/)
-* [@johanneskoester](https://github.com/johanneskoester/)
 
