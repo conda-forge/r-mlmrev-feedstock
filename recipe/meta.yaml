@@ -37,7 +37,7 @@ test:
 
 about:
   home: https://CRAN.R-project.org/package=mlmRev
-  license: GPL-2
+  license: GPL-2.0-or-later
   summary: Data and examples from a multilevel modelling software review as well as other well-known
     data sets from the multilevel modelling literature.
   license_family: GPL2
