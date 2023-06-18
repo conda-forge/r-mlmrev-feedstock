@@ -1,11 +1,11 @@
-About r-mlmrev
-==============
+About r-mlmrev-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-mlmrev-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=mlmRev
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-mlmrev-feedstock/blob/main/LICENSE.txt)
 
 Summary: Data and examples from a multilevel modelling software review as well as other well-known data sets from the multilevel modelling literature.
 
