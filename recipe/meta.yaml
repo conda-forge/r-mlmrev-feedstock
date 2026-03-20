@@ -1,18 +1,18 @@
-{% set version = '1.0-8' %}
+{% set version = "1.0-9" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
   name: r-mlmrev
-  version: {{ version|replace("-", "_") }}
+  version: "{{ version|replace("-", "_") }}"
 
 source:
   url:
     - {{ cran_mirror }}/src/contrib/mlmRev_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/mlmRev/mlmRev_{{ version }}.tar.gz
-  sha256: d57f3ff5d49e5f0079d4367cdbc1a273f48d8ce8f03bb82bb5f90606bfb2c452
+  sha256: 649c5af0dc39f213f6ed6dec5ea3873954ddda08ac99f5557fb27c4f57abed32
 
 build:
-  number: 5
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -36,8 +36,7 @@ test:
 about:
   home: https://CRAN.R-project.org/package=mlmRev
   license: GPL-2.0-or-later
-  summary: Data and examples from a multilevel modelling software review as well as other well-known
-    data sets from the multilevel modelling literature.
+  summary: Data and examples from a multilevel modelling software review as well as other well-known data sets from the multilevel modelling literature.
   license_family: GPL2
   license_file:
     - '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'
